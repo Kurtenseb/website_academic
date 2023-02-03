@@ -13,22 +13,22 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  - block: features
-    content:
-      title: Skills
-      items:
-        - name: R
-          description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
-          icon_pack: fas
+#  - block: features
+#    content:
+#      title: Skills
+#      items:
+#        - name: R
+#          description: 90%
+#          icon: r-project
+#          icon_pack: fab
+#        - name: Statistics
+#          description: 100%
+#          icon: chart-line
+#          icon_pack: fas
+#        - name: Photography
+#          description: 10%
+#          icon: camera-retro
+#          icon_pack: fas
   - block: experience
     content:
       title: Experience
@@ -41,8 +41,8 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Doctoral Research Associate
-          company: KU Leuven University
+        - title: Postdoctoral Research Associate
+          company: University of Cambridge
           company_url: ''
           company_logo: KU_Leuven_logo
           location: 
@@ -50,18 +50,33 @@ sections:
           date_end: ''
           description: |2-
               Responsibilities include:
-
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Doctoral Research Associate
+          company: KU Leuven University
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: KU_Leuven_logo
+          location: 
+          date_start: '2020-01-01'
+          date_end: '2022-09-30'
+          description: |2-
+              Responsibilities include:
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Research Assistant
+          company: University of Luxembourg
+          company_url: ''
+          company_logo: KU_Leuven_logo
+          location: 
+          date_start: '2020-01-01'
+          date_end: '2022-09-30'
+          description: |2-
+              Responsibilities include:
+              * Analysing
+              * Modelling
+              * Deploying
     design:
       columns: '2'
   - block: accomplishments
