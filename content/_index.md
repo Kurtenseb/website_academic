@@ -41,11 +41,11 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Doctoral Research Associate
+          company: KU Leuven University
           company_url: ''
-          company_logo: org-gc
-          location: California
+          company_logo: KU_Leuven_logo
+          location: 
           date_start: '2021-01-01'
           date_end: ''
           description: |2-
@@ -213,25 +213,13 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: sebastian.kurten@mrc-cbu.cam.ac.uk
+      phone: +44 1223 7679602
       contact_links:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/Twitter'
+          link: 'https://twitter.com/SebKurten'
         - icon: skype
           icon_pack: fab
           name: Skype Me
